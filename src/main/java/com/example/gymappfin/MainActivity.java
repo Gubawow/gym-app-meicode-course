@@ -45,8 +45,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this)
                         .setTitle("About")
-                        .setMessage("Created with <3 by Meisam at meiCode.org\n" +
-                                "Visit for more")
+                        .setMessage("Created by Gubawow (PG) as a part of meicode.org course which im thankful for!" +
+                                "Visit him for more awesome courses!")
                         .setNegativeButton("Dismiss", new DialogInterface.OnClickListener() {
                             @Override
                             public void onClick(DialogInterface dialog, int which) {
